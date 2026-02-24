@@ -1,0 +1,61 @@
+span{
+  font-weight: 900;
+  color: red;
+  font-size: 30px;
+  border: 3px darkred solid;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: lavenderblush;
+}
+body {
+  text-align: center;
+}
+
+.choice-button {
+  height: 100px;
+  width: 100px;
+  border: none;
+  margin: 10px;
+  background-color: rgb(164, 212, 130);
+  border-radius: 50px;
+  cursor: pointer;
+}
+.choice-button:hover{
+  background-color: aquamarine;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.choice-button:active{
+    background-color:rgb(221, 131, 221);
+
+}
+.choice-image {
+  height: 81px;
+}
+
+#restart{
+  height: 30px;
+  width: 150px;
+  font-size: 20px;
+  font-weight: 600;
+  color:coral;
+  border: 2px darkred solid;
+  border-radius: 20px;
+  background-color:blanchedalmond;
+  cursor:progress;
+}
+#restart:hover{
+  color: darkgreen;
+  height: 50px;
+  width: 200px;
+  font-size: 30px;
+}
+#restart:active{
+  background-color:rgb(221, 131, 221);
+}
+.text{
+  font-size: 20px;
+  color: purple;
+  font-weight: 900;
+}
